@@ -4,5 +4,4 @@ Using the age variable and the print() function print to the console the followi
 '''
 
 age = 20
-
 print(f"I am {age} years old.")

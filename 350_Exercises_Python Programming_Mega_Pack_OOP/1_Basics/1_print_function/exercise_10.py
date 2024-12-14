@@ -3,4 +3,4 @@ Using the print() function and the sep argument set to '#' print the following t
 'summer#time#holiday'
 '''
 
-print("summer", "time", "holiday", sep="#")
+print('summer', 'time', 'holiday', sep='#')

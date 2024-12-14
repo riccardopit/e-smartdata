@@ -9,5 +9,4 @@ Area: 78.5
 pi = 3.14
 r = 5
 area = r**2 * pi
-print(f"Area: {area}")
 print(f"Area: {area:.1f}")

@@ -6,7 +6,6 @@ Using these variables and the print() function, print to the console the followi
 I am learning Python version 3.8
 '''
 
-lang = "Python"
-version = "3.8"
-
+lang = 'Python'
+version = '3.8'
 print(f"I am learning {lang} version {version}")
