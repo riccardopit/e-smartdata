@@ -1,10 +1,10 @@
 '''
-The following text is given:
-text = '  Google Colab   '
-Using the appropriate method remove whitespace characters around the text. Print the result to the console.
+The following code is given:
+code = 'FVNISJND-XX'
+Using the appropriate method replace the dash with a space. Print the result to the console.
 Expected result:
-Google Colab
+FVNISJND XX
 '''
 
-text = '  Google Colab   '
-print(text.strip())
+code = 'FVNISJND-XX'
+print(code.replace('-', ' '))

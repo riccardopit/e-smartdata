@@ -1,10 +1,12 @@
 '''
 The following text is given:
-text = 'Open,High,Low,Close'
-Using the appropriate method split the text by comma. Print the result as a list to the console as shown below.
+text = """Python is a general-purpose language.
+Python is popular."""
+Using the appropriate method, split the text into sentences. Print the result as a list to the console.
 Expected result:
-['Open', 'High', 'Low', 'Close']
+['Python is a general-purpose language.', 'Python is popular.']
 '''
 
-text = 'Open,High,Low,Close'
-print(text.split(','))
+text = """Python is a general-purpose language.
+Python is popular."""
+print(text.splitlines())

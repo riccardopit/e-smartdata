@@ -1,12 +1,19 @@
 '''
-The following variable is given:
-num = 34
-Using the appropriate method for an object of type str,
-print the variable num preceded by four zeros to the console as shown below.
+From the given url:
+url = (
+    'https://e-smartdata.teachable.com/p/'
+    'sciezka-data-scientist-machine-learning-engineer'
+)
+extract the slug after the last character '/'.
+Then replace all dashes with spaces and print the result to the console as shown below.
 Expected result:
-000034
+sciezka data scientist machine learning engineer
 '''
 
-num = 34
-print(f"0000{num}")
-print(str(num).zfill(6))
+url = (
+    'https://e-smartdata.teachable.com/p/'
+    'sciezka-data-scientist-machine-learning-engineer'
+)
+text = url.split('/')
+text = text[-1]
+print(text.replace('-', ' '))

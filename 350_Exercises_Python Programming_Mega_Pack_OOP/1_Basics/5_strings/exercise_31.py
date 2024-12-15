@@ -8,5 +8,5 @@ Number of occurrences: 4
 '''
 
 text = "python is a popular programming language."
-count = text.count("p")
+count = text.count('p')
 print(f"Number of occurrences: {count}")

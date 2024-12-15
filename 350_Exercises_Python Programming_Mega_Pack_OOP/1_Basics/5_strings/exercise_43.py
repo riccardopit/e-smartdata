@@ -1,12 +1,12 @@
 '''
-The following text is given:
-text = """Python is a general-purpose language.
-Python is popular."""
-Using the appropriate method, split the text into sentences. Print the result as a list to the console.
+The following variable is given:
+num = 34
+Using the appropriate method for an object of type str,
+print the variable num preceded by four zeros to the console as shown below.
 Expected result:
-['Python is a general-purpose language.', 'Python is popular.']
+000034
 '''
 
-text = """Python is a general-purpose language.
-Python is popular."""
-print(text.splitlines())
+num = 34
+print(f"0000{num}")
+print(str(num).zfill(6))

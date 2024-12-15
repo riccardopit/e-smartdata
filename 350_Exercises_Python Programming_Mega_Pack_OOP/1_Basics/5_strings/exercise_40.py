@@ -1,10 +1,10 @@
 '''
-The following code is given:
-code = 'FVNISJND-XX'
-Using the appropriate method replace the dash with a space. Print the result to the console.
+The following text is given:
+text = '340-23-245-235'
+Using the appropriate method remove all dashes from the text. Print the result to the console.
 Expected result:
-FVNISJND XX
+34023245235
 '''
 
-code = 'FVNISJND-XX'
-print(code.replace('-', ' '))
+text = '340-23-245-235'
+print(text.replace('-', ''))
