@@ -18,5 +18,6 @@ text = text.lower()
 text = text.replace(' ', '').replace('.', '')
 text = set(text)
 text1 = text - vowels
-text2 = text.difference(vowels)
 print(f"Number of items: {len(text1)}")
+text2 = text.difference(vowels)
+print(f"Number of items: {len(text2)}")

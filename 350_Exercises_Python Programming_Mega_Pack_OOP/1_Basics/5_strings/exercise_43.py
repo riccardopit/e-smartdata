@@ -8,5 +8,4 @@ Expected result:
 '''
 
 num = 34
-print(f"0000{num}")
 print(str(num).zfill(6))
