@@ -22,7 +22,7 @@ class Laptop:
         self.price = price
 
     def display_instance_attrs(self):
-        for attr in self.__dict__.keys():
+        for attr in self.__dict__:
             print(attr)
 
 

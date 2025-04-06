@@ -17,5 +17,5 @@ class OnlineShop:
 
 
 OnlineShop.country = 'USA'
-attrs = [attr for attr in OnlineShop.__dict__.keys() if not attr.startswith('__')]
+attrs = [attr for attr in OnlineShop.__dict__ if not attr.startswith('__')]
 print(attrs)
