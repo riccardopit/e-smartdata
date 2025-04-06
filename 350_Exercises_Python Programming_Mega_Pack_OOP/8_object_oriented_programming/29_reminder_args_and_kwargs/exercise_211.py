@@ -13,7 +13,6 @@ display_info(company='CD Projekt', price=100)
 Expected result:
 Company name: CD Projekt
 Price: $ 100
-..........
 '''
 
 

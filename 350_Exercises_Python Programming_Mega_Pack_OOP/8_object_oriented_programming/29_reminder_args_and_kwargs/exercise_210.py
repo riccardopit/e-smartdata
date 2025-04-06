@@ -11,7 +11,6 @@ stick(False, 'time', True, 'workout', [], 'gym')
 Expected result:
 sport#summer
 time#workout#gym
-..........
 '''
 
 
