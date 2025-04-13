@@ -26,7 +26,7 @@ class Laptop:
 
     def display_protected_attrs(self):
         for attr in self.__dict__:
-            if attr.startswith(f'_') and self.__class__.__name__ not in attr:
+            if attr.startswith('_') and self.__class__.__name__ not in attr:
                 print(attr)
 
 
